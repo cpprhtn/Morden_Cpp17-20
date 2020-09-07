@@ -28,7 +28,7 @@ int main()
    std::vector<int> numbers;
    for (int i = 0; i < n; ++i)
    {
-      int v = { 0 };
+      int v{ 0 };
       std::cin >> v;
       numbers.push_back(v);
    }
