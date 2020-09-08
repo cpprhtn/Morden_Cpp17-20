@@ -1,10 +1,12 @@
-#include <iostream>
 //sexy prime는 두 수의 차가 6인 소수쌍을 의미
 //ex) 5 & 11, 13 & 19
 
 //twin primes는 두 수의 차가 2인 소수쌍
 
 //cousin primes는 두 수의 차가 4인 소수쌍
+
+#include <iostream>
+
 bool is_prime(int const num)
 {
    if (num <= 3)

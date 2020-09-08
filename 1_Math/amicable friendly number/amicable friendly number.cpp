@@ -1,7 +1,9 @@
+//친화수 짝을 출력하는 프로그램
+
 #include <iostream>
 #include <set>
 #include <cmath>
-//친화수 짝을 출력하는 프로그램
+
 int sum_proper_divisors(int const number)
 {
    int result = 1;
