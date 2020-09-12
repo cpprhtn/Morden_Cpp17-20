@@ -38,7 +38,7 @@ int main()
    }
 
    int number = 0;
-   std::cout << "number:";
+   std::cout << "number: ";
    std::cin >> number;
 
    std::cout << to_roman(number) << std::endl;
