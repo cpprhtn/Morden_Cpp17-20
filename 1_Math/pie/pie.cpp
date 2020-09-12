@@ -1,5 +1,5 @@
 //파이 값
-
+//pseudo-random number(의사 난수)를 생성하기 위해 Mersenne twister(메르센 트위스터)법과 uniform statistical distribution(균등분포) 사용
 #include <iostream>
 #include <random>
 #include <algorithm>
