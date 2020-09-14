@@ -14,5 +14,16 @@ std::array 컨테이너는 오직 담고 있는 원소가 이동 생성 가능�
 
 또한 std::initializer_list를 통해 생성될 수 없다
 
-따라서  std::vector이 주어진 사항을 만족하는 선택지 이다
+따라서  std::vector 사용
 
+## minimum function.cpp
+가변 인자 함수 템플릿(variadic function template)을 사용해 여러 개의 전달 인자를 받는 함수 템플릿 작성가능
+
+이를 위해서 컴파일 시간 재귀를 구현
+
+## insert multiple values into container.cpp
+가변 인자 함수 템플릿(variadic function template)을 사용해 여러 개의 전달 인자를 받는 함수 템플릿 작성가능
+
+함수는 컨테이너를 첫 번째 매개변수로 받아야 하며, 컨테이너의 뒤에 삽입할 값을 의미하는 불특정한 수의 인자가 따라와야 함
+
+폴드 표현식을 통해 이러한 함수 템플릿을 아주 간단하게 작성
