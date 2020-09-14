@@ -1,6 +1,5 @@
 # 2_Language-function
 
-
 ## calc 2D array.cpp
 고정된 길이나 가변 길이를 지원하는 표준 컨테이너가 존재한다
 
@@ -16,3 +15,4 @@ std::array 컨테이너는 오직 담고 있는 원소가 이동 생성 가능�
 또한 std::initializer_list를 통해 생성될 수 없다
 
 따라서  std::vector이 주어진 사항을 만족하는 선택지 이다
+
