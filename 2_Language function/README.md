@@ -1,4 +1,4 @@
-# 2_Language-function
+# 2_Language function
 
 ## calc 2D array.cpp
 고정된 길이나 가변 길이를 지원하는 표준 컨테이너가 존재한다
