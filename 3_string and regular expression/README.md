@@ -11,3 +11,6 @@ std::array, std::vector, C형식 배열 등의 다양한 종류의 입력 형식
 입력 문자열을 수정하지 않고 새로운 문자열을 만들어 내기 위해서 std::stringstream을 사용
 
 모든 문자들을 순회하며 공백이나 구두점이 나올때 마다 새로운 단어를 의미하는 플래그를 True로 주어서 처리
+
+## combining strings divided by parcel characters.cpp
+
