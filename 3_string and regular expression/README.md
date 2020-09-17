@@ -16,3 +16,5 @@ std::array, std::vector, C형식 배열 등의 다양한 종류의 입력 형식
 join_strings()라는 함수 템플릿의 두 가지 오버로드를 사용
 하나는 구분 문자를 나타내는 포인터를 인자로 받고, 다른 하나는 범위의 처음과 끝을 의미하는 두 랜덤 액세스 반복자와 함께 구분 문자를 인자로 받음
 std::ostream_iterator를 사용해 반복자에 값이 할당될 때마다 지정된 출력 스트림에 해당값을 write함
+
+## detach string as token.cpp
