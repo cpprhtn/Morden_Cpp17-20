@@ -14,7 +14,14 @@ std::array, std::vector, C형식 배열 등의 다양한 종류의 입력 형식
 
 ## combining strings divided by parcel characters.cpp
 join_strings()라는 함수 템플릿의 두 가지 오버로드를 사용
+
 하나는 구분 문자를 나타내는 포인터를 인자로 받고, 다른 하나는 범위의 처음과 끝을 의미하는 두 랜덤 액세스 반복자와 함께 구분 문자를 인자로 받음
+
 std::ostream_iterator를 사용해 반복자에 값이 할당될 때마다 지정된 출력 스트림에 해당값을 write함
 
 ## detach string as token.cpp
+문자열 분리함수에 대해서 아래 2가지 유형으로 생각해봤다
+
+1. 하나의 문자를 구획 문자로 사용하여 입력 문자열의 내용으로 초기화된 문자열 스트림을 사용해, std::getline()으로 다음 구획 문자나 개행 문자를 마주질 때까지 영역을 읽어옴
+
+2. std::string으로 가능한 구획 문자의 리스트를 받는것으로 std::string::find_first_of()를 사용해 주어진 위치에서부터 처음으로 등장하는 구획 문자의 위치를 찾고, 이를 반복하여 추출한 부분 문자열은 vector에 추가시킴
