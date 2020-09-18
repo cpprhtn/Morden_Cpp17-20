@@ -27,3 +27,5 @@ std::ostream_iterator를 사용해 반복자에 값이 할당될 때마다 지�
 2. std::string으로 가능한 구획 문자의 리스트를 받는것으로 std::string::find_first_of()를 사용해 주어진 위치에서부터 처음으로 등장하는 구획 문자의 위치를 찾고, 이를 반복하여 추출한 부분 문자열은 vector에 추가시킴
 
 ## longest enumeration partial string.cpp
+
+## vehicle license plate verification.cpp
