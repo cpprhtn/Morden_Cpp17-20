@@ -34,4 +34,3 @@ std::ostream_iterator를 사용해 반복자에 값이 할당될 때마다 지�
 
 "[A-Z]{3}-[A-Z]{2} \d{3,4}"
 
-## URL extraction.cpp
