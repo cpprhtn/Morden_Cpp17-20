@@ -179,6 +179,7 @@ int main()
 
       auto d1 = data;
       auto d2 = data;
+      
 
       std::cout << "sorting..." << std::endl;
       auto start1 = std::chrono::system_clock::now();
