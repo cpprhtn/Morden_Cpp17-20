@@ -192,59 +192,59 @@ graph<std::string, double> make_graph_map()
 int main()
 {
    {
-      auto g = make_graph();
+       auto g = make_graph();
 
-      char source = 'A';
-      std::map<char, double>  min_distance;
-      std::map<char, char> previous;
-      shortest_path(g, source, min_distance, previous);
+       char source = 'A';
+       std::map<char, double> min_distance;
+       std::map<char, char> previous;
+       shortest_path(g, source, min_distance, previous);
 
-      for (auto const & kvp : min_distance)
-      {
-         std::cout << source << " -> " << kvp.first << " : "
+       for(auto const & kvp : min_distance)
+       {
+           std::cout << source << " -> " << kvp.first << " : "
             << kvp.second << '\t';
 
-         print_path(build_path(previous, kvp.first));
+            print_path(build_path(previous, kvp.first));
 
-         std::cout << std::endl;
-      }
+            std::cout << std::endl;
+       }
    }
 
    {
-      auto g = make_graph_wiki();
+       auto g = make_graph_wiki();
 
-      char source = 'A';
-      std::map<char, double>  min_distance;
-      std::map<char, char> previous;
-      shortest_path(g, source, min_distance, previous);
+       char source = 'A';
+       std::map<char, double> min_distance;
+       std::map<char, char> previous;
+       shortest_path(g, source, min_distance, previous);
 
-      for (auto const & kvp : min_distance)
-      {
-         std::cout << source << " -> " << kvp.first << " : "
+       for(auto const & kvp : min_distance)
+       {
+           std::cout << source << " -> " << kvp.first << " : " 
             << kvp.second << '\t';
 
-         print_path(build_path(previous, kvp.first));
+            print_path(build_path(previous, kvp.first));
 
-         std::cout << std::endl;
-      }
+            std::cout << std::endl;
+       }
    }
 
    {
-      auto g = make_graph_map();
+       auto g = make_graph_map();
 
-      std::string source = "London";
-      std::map<std::string, double>  min_distance;
-      std::map<std::string, std::string> previous;
-      shortest_path(g, source, min_distance, previous);
+       std::string source = "London";
+       std::map<std::string, double> min_distance;
+       std::map<std::string, std::string> previous;
+       shortest_path(g, source, min_distance, previous);
 
-      for (auto const & kvp : min_distance)
-      {
-         std::cout << source << " -> " << kvp.first << " : "
+       for(auto const & kvp : min_distance)
+       {
+           std::cout << source << " -> " << kvp.first << " : "
             << kvp.second << '\t';
 
-         print_path(build_path(previous, kvp.first));
+            print_path(build_path(previous, kvp.first));
 
-         std::cout << std::endl;
-      }
+            std::cout << std::endl;
+       }
    }
 }
